@@ -1,6 +1,5 @@
 const str = 'chuck-chat chat.chuckcatron.com';
-console.log('fuck');
-const text = document.getElementById('text');
+const text = document.getElementsByClassName('spin-text')[0];
 for (let i = 0; i < str.length; i++) {
   let span = document.createElement('span');
   span.className = 'text-char';
