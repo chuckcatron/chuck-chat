@@ -15,7 +15,7 @@ export const Overview = () => {
     >
       <div className="rounded-xl p-6 flex flex-col gap-8 leading-relaxed text-center max-w-xl">
         <Script src="/scripts/text-rotator.js" strategy="afterInteractive" />
-        <p id="text">shit</p>
+        <p id="text"></p>
         <Image
           id="me"
           src="/images/cartoon-chuck.png"
