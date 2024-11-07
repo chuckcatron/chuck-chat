@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Script from 'next/script';
 
-import { MessageIcon, VercelIcon } from './icons';
-
+import '../../public/styles/text-rotator.css';
 export const Overview = () => {
   return (
     <motion.div
@@ -14,18 +14,15 @@ export const Overview = () => {
       transition={{ delay: 0.5 }}
     >
       <div className="rounded-xl p-6 flex flex-col gap-8 leading-relaxed text-center max-w-xl">
-        <p className="flex flex-row justify-center gap-4 items-center">
-          Welcome to chuck-chat
-        </p>
-        <p>
-          <Image
-            src="/images/cartoon-chuck.png"
-            alt="Vercel"
-            width="350"
-            height="350"
-          />
-        </p>
-        <p></p>
+        <Script src="/scripts/text-rotator.js" strategy="afterInteractive" />
+        <p id="text">shit</p>
+        <Image
+          id="me"
+          src="/images/cartoon-chuck.png"
+          alt="Chuck Chat"
+          width="225"
+          height="225"
+        />
       </div>
     </motion.div>
   );
