@@ -24,14 +24,14 @@ import { Textarea } from '../ui/textarea';
 
 const suggestedActions = [
   {
-    title: 'What is the weather',
-    label: 'in San Francisco?',
-    action: 'What is the weather in San Francisco?',
+    title: 'Build a landing page',
+    label: 'for a new website?',
+    action: 'Create a landing page for my new website',
   },
   {
-    title: 'Help me draft an essay',
-    label: 'about Silicon Valley',
-    action: 'Help me draft a short essay about Silicon Valley',
+    title: 'Help me create a Python script',
+    label: 'to calculate the Fibonacci sequence?',
+    action: 'Write a Python function to calculate the Fibonacci sequence.',
   },
 ];
 

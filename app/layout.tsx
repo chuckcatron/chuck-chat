@@ -4,6 +4,7 @@ import { Toaster } from 'sonner';
 import { ThemeProvider } from '@/components/custom/theme-provider';
 
 import './globals.css';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://chat.vercel.ai'),

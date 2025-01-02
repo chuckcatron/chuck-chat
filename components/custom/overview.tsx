@@ -14,11 +14,10 @@ export const Overview = () => {
       transition={{ delay: 0.5 }}
     >
       <div className="rounded-xl p-6 flex flex-col gap-8 leading-relaxed text-center max-w-xl">
-        <Script src="/scripts/text-rotator.js" strategy="afterInteractive" />
         <p className="spin-text"></p>
         <Image
           id="me"
-          src="/images/cartoon-chuck.png"
+          src="/images/Untitled.png"
           alt="Chuck Chat"
           width="225"
           height="225"

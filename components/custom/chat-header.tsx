@@ -40,7 +40,7 @@ export function ChatHeader({ selectedModelId }: { selectedModelId: string }) {
         selectedModelId={selectedModelId}
         className="order-1 md:order-2"
       />
-      <Button
+      {/* <Button
         className="bg-zinc-900 dark:bg-zinc-100 hover:bg-zinc-800 dark:hover:bg-zinc-200 text-zinc-50 dark:text-zinc-900 hidden md:flex py-1.5 px-2 h-fit md:h-[34px] order-4 md:ml-auto"
         asChild
       >
@@ -50,7 +50,7 @@ export function ChatHeader({ selectedModelId }: { selectedModelId: string }) {
         >
           chuckcatron.com
         </Link>
-      </Button>
+      </Button> */}
     </header>
   );
 }
