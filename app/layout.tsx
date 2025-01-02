@@ -4,12 +4,11 @@ import { Toaster } from 'sonner';
 import { ThemeProvider } from '@/components/custom/theme-provider';
 
 import './globals.css';
-import Image from 'next/image';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://chat.vercel.ai'),
-  title: 'Next.js Chatbot Template',
-  description: 'Next.js chatbot template using the AI SDK.',
+  metadataBase: new URL('https://ninja-coder.com'),
+  title: 'Ninja Coder',
+  description: 'Code like a ninja',
 };
 
 export const viewport = {
